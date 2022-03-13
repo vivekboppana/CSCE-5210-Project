@@ -1,0 +1,26 @@
+CSCE 5210: Fundamentals of Artificial Intelligence Project Proposal
+
+Project Title – Intrusion detection during data transfer using naïve baye’s algorithm 
+
+Team Members : 11531931 – Vivek Boppana
+
+Goals And Objectives : 
+Motivation : 
+In the fast growing world where everything relies on data , One major problem that we are facing is the corruption of data and capturing of data by external resources or third person . Data can include anything from a good morning text to a highly confidential resources like passwords . So , We need  a mechanism which detects the data that is prone to get corrupted or data that is prone to being hacked . 
+
+Significance :
+This main significance of this project is that it helps the user to detect the IT attack . If we are aware of the attack a data is prone to on beforehand , we will be able to enable ourselves and can escape from the circumstances that could occur due to data corruption or data hacks . 
+
+Objectives :
+Firstly , the model has to be trained with some training data . Training data has many fields like size of data to be transferred , Duration of transfer, Authenticated or not and a lot of various other fields . Then we test the model , and finally deploy it on to the ui . In the ui , we take some inputs from the user and detect the type of attack it is prone to . 
+
+Features :
+This project uses Naïve Baye’s classifier to train the model . We deploy the model and make it usable for the usable by implementing the ui using Flask .  The project detects the type of attack the data is prone to . If the data is prone to an attack , we print it on the ui and if it is not prone , We print that It is not prone to any attack . As the size of testing data is too large , we use PCA for dimension reduction and normalize the data .
+
+References :
+https://onlinelibrary.wiley.com/doi/full/10.1002/ett.4150
+https://www.geeksforgeeks.org/intrusion-detection-system-using-machine-learning-algorithms/
+https://www.academia.edu/7280570/Project_Report_for_Intrusion_Detection_System_Using_Fuzzy_Clustring_Algorithm_Acknowledgement
+
+GitHub URL : 
+https://github.com/vivekboppana/CSCE-5210-Project 
